@@ -7,22 +7,55 @@
 */
 /*This Class is a Catch That will replace any missed texts with the correct font family. 
 IMPORTANT TO IMPLEMENT AFTER DEV IS COMPLETE.
+*/
+html {background-color: rgb(29,102,141)}
 
 .fontContainer{
     font-family: 'exo 2', sans-serif;
 }
-*/
 
 
 /*TODO: DEVELOP THE GRID SYSTEM*/
+.titleGrid{
+    display: grid;
+    grid-template-columns: 6fr 6fr 6fr 6fr 6fr;
+    grid-template-rows: auto 50px;
+    background-color: rgb(21,55,74);
+}
+.mItem{ 
+    
+    text-align: center;
+}
+
+.Two{
+    display: none;
+}
+.Three{
+    color: white;
+    grid-column: 2/span 3;
+    justify-self: center;
+}
+.Four{
+    display: none;
+}
 
 
+a:link{
+    color: white;
+}
+a:hover{
+    color: rgb(135, 241, 28);
+}
+a:visited{
+    color: rgb(35, 221, 234);
+}
 /*The main title text for the site.*/
 .fontTitle{
     font-family: 'exo 2', sans-serif;
     font-size: 200px;
     font-weight: 100;
-    /*TODO ADD COLOR*/
+    text-align: center;
+    
 }
 .navMenu{
     display: flex;
@@ -31,5 +64,23 @@ IMPORTANT TO IMPLEMENT AFTER DEV IS COMPLETE.
     margin: 0;
     padding: 0;
     text-align: center;
-    /*TODO SPACING AND COLOR */
+}
+.introGrid{
+    display:grid;
+    grid-template-columns: 400px;
+    grid-template-rows: auto;
+
+}
+
+.introHeader{
+    font-family: 'exo 2' sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    color: white;
+}
+
+.introBody{
+    font-size: 25px;
+    color: white;
+
 }
