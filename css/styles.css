@@ -12,6 +12,7 @@ html {background-color: rgb(29,102,141)}
 
 .fontContainer{
     font-family: 'exo 2', sans-serif;
+    color:white; 
 }
 
 
@@ -225,4 +226,14 @@ button:hover{
     background-color: rgb(23,70,110);
     font-weight: 200;
 
+}
+.experimentHeader{
+    color:white;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+text{
+    fill: white;
 }
