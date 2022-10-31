@@ -254,13 +254,7 @@ span {
     content: "Exo";
     position: absolute;
     color: transparent;
-    background-image: repeating-linear-gradient(
-      35deg,
-      transparent 0,
-      transparent 2px,
-      white 2px,
-      white 4px
-    );
+    background-image: repeating-linear-gradient(35deg,transparent 0,transparent 2px,white 2px,white 4px);
     -webkit-background-clip: text;
     top: 0px;
     left: 0;
@@ -272,13 +266,7 @@ span {
     content: "Exo";
     position: absolute;
     color: transparent;
-    background-image: repeating-linear-gradient(
-      80deg,
-      transparent 0,
-      transparent 2px,
-      white 2px,
-      white 4px
-    );
+    background-image: repeating-linear-gradient(80deg,transparent 0,transparent 2px,white 2px,white 4px);
     -webkit-background-clip: text;
     top: 0px;
     left: 0px;
