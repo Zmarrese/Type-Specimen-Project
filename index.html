@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="javaScript/javaS.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -20,8 +21,6 @@
 </head>
 
 <body>
-
-
     <div class = "fontContainer">
         <div class = "titleGrid">
         <div class="mItem One"></div>
@@ -80,14 +79,15 @@
         Includes a display box, a options bar, and a panel of all characters for the user to select. 
         !!!!Most likely the most time consuming aspect do not slack on it!!!-->
         <div id ="Characters"class = "charDisplay">Characters</div>
-        <div id="mainChar" class="mainChar">A</div>
+        <div id="mainChar" class="mainChar">X</div>
         <div class = "charOptions">
-            <button class = "option L">B</button>
-            <button class = "option B">B</button>
-            <button class = "option I">I</button>
+            <button type="button" onclick="lightFont()" class = "option L">B</button>
+            <button type="button" onclick="darkFont()"  class = "option B">B</button>
+            <button type="button" onclick="itFont()"    class = "option I">I</button>
+            <button type="button" onclick="norFont()"    class = "option N">N</button>
         </div>
         <div class="charGrid"> <!--Shame lies ahead Do Not Open -->
-            <button class = "selection A">A</button> <!--THere is def a better way to do this-->
+            <button type="button" onclick="changeMain()"class = "selection A">A</button> <!--THere is def a better way to do this-->
             <button class = "selection A">a</button>
             <button class = "selection A">B</button>
             <button class = "selection A">b</button>
@@ -167,10 +167,10 @@
                   </textPath>
                 </text>
               </svg>
-              <!--BEGIN CUBE-->
+              
               
               <!--Splitting thing-->
-              <span>Exo</span>
+              <span class ="exoSpan">WMWMW</span>
         </div> <!--Font Container end div-->
     </div>
 </body>

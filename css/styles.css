@@ -182,16 +182,18 @@ a:visited{
 
 }
 .mainChar{
+    content: "X";
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     color:white;
     font-size: 90px;   
-    
+    font-weight:500;
+    font-style: normal;    
 }
 .charOptions{
     display:grid;
-    grid-template-columns: 33fr 33fr 33fr;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
     text-align: center;
 }
 .L{
@@ -211,6 +213,13 @@ a:visited{
     font-size: 30px;
     font-weight: 400;
     font-style: italic;
+    background-color: transparent;
+}
+.N{
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
     background-color: transparent;
 }
 button:hover{
@@ -251,10 +260,11 @@ span {
     font-size: 124px;
     letter-spacing: 8px;
     cursor: pointer;
+    letter-spacing: -3px;
   }
   
   span::before {
-    content: "Exo";
+    content: "WMWMW";
     position: absolute;
     color: transparent;
     background-image: repeating-linear-gradient(35deg,transparent 0,transparent 2px,white 2px,white 4px);
@@ -263,10 +273,11 @@ span {
     left: 0;
     z-index: -1;
     transition: 1s;
+    letter-spacing: -3px;
   }
   
   span::after {
-    content: "Exo";
+    content: "WMWMW";
     position: absolute;
     color: transparent;
     background-image: repeating-linear-gradient(80deg,transparent 0,transparent 2px,white 2px,white 4px);
@@ -274,6 +285,7 @@ span {
     top: 0px;
     left: 0px;
     transition: 1s;
+    letter-spacing: -3px;
   }
   
   span:hover:before {
@@ -285,5 +297,8 @@ span {
     top: -20px;
     right: -20px;
   } 
-  
+  .exoSpan{
+    letter-spacing: -3px;
+
+  }
   
