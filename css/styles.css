@@ -123,12 +123,14 @@ a:visited{
     grid-column: span 3;
     opacity: .65;
     font-style: italic;
+    overflow-x:hidden ;
 }
 .s10{
     font-size: 100px;
     font-weight: 700;
     grid-column: span 2;
     color: white;
+
 }
 .s11{
     font-size: 150px;
@@ -136,6 +138,7 @@ a:visited{
     font-stretch: ultra-expanded;
     grid-column: span 3;
     letter-spacing: 10px;
+    overflow-x: hidden;
 }
 
 .bodyHeader{
