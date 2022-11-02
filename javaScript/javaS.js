@@ -21,5 +21,5 @@ function norFont(){
 }
 function changeMain(newMain){
     String = newMain;
-    document.getElementById("mainChar").innerHTML = "A";
+    document.getElementById("mainChar").innerHTML = newMain;
 }
