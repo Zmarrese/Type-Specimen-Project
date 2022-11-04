@@ -69,7 +69,7 @@ a:visited{
 .introGrid{
     display:grid;
     align-items: center;
-    grid-template-columns: 700px;
+    grid-template-columns: 900px;
     grid-template-rows: 45fr;
 
 }
@@ -227,12 +227,14 @@ a:visited{
     background-color: transparent;
 }
 button:hover{
+    cursor:pointer;
     color: rgb(135, 241, 28);
 }
 input{
     font-family: inherit;
 }
 input:hover{
+    cursor:pointer;
     color: rgb(135, 241, 28);
 }
 .charGrid{
@@ -256,59 +258,34 @@ input:hover{
     text-align: center;
     margin-top: 50px;
 }
-text{
-    fill: white;
+
+.ex1{
+    font-size: 80px;
+    font-weight: 200;
+    position: relative;
+    right: -660px;
+    top: 43px;
+    
+    
 }
 
-span {
-    position: absolute;
-    left: 50%;
-    top: 600%;
-    transform: translate(-50%, -50%);
-   
-    color: rgb(10, 35, 56);
-    font-size: 124px;
-    letter-spacing: 8px;
-    cursor: pointer;
-    letter-spacing: -3px;
-  }
-  
-  span::before {
-    content: "WMWMW";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(35deg,transparent 0,transparent 2px,white 2px,white 4px);
-    -webkit-background-clip: text;
-    top: 0px;
-    left: 0;
-    z-index: -1;
-    transition: 1s;
-    letter-spacing: -3px;
-  }
-  
-  span::after {
-    content: "WMWMW";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(80deg,transparent 0,transparent 2px,white 2px,white 4px);
-    -webkit-background-clip: text;
-    top: 0px;
-    left: 0px;
-    transition: 1s;
-    letter-spacing: -3px;
-  }
-  
-  span:hover:before {
-    top: 20px;
-    right: 20px;
-  }
-  
-  span:hover:after {
-    top: -20px;
-    right: -20px;
-  } 
-  .exoSpan{
-    letter-spacing: -3px;
+.ex11{
+    transform: rotate(-90deg);
+    font-size: 80px;
+    font-weight: 200;
+    position: relative;
+    top: -706px;
 
-  }
-  
+}
+.matrix{
+    font-weight: 300;
+    
+    line-height: 60%;
+    font-stretch: ultra-condensed;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(9, 43, 236), rgb(112, 240, 221));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
