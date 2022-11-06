@@ -277,15 +277,49 @@ input:hover{
     top: -706px;
 
 }
+@keyframes ex3{
+    0% {color:white}
+    10%{font-size: 30px;}
+    25%{color:rgb(134, 176, 243) }
+    35%{font-size: 40px;}
+    50%{color:rgb(10, 206, 236)}
+    60%{font-size: 50px;}
+    75%{color: rgb(134, 176, 243)}
+    80%{font-weight: 700;}
+    100%{color: rgb(135, 241, 28)}
+}
+
 .matrix{
     font-weight: 300;
     
     line-height: 60%;
-    font-stretch: ultra-condensed;
+    font-stretch: ultra-expanded;
     font-size: 72px;
     background: -webkit-linear-gradient(rgb(9, 43, 236), rgb(112, 240, 221));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow-x: hidden;
     overflow-y: hidden;
+}
+.finalEx{
+    position: inherit;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    margin-top: 5px;
+    animation-name: ex3;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.finalGrid{
+    position: -webkit-sticky;
+    position:sticky;
+    bottom:0;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto;
+    background-color: rgb(21,55,74);
 }
